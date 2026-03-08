@@ -1,7 +1,7 @@
-# customer-support-chatbot
-customer support chat with RAG and agent
-Customer Support chatbot - RAG(Chroma) + Agno Agent/Team 
-Customer Support chatbot system is a real-world customer support chatbot built using 
+# Customer Support Chatbot with RAG and Agent
+# Customer Support Chatbot - RAG(Chroma) + Agno Agent/Team 
+
+This Customer Support chatbot system is a real-world customer support chatbot built using
 Retrieval-Augmented Generation (RAG) with Lang Chain, and a multi-agent architecture 
 using Agno. It is designed to handle practical support flows such as FAQs, order tracking, 
 refunds, shipping issues, and escalation. 
@@ -33,5 +33,25 @@ Technology Stack:
 o Lang Chain retriever tool 
 o Backend API tools (order lookup, refunds) 
 • Ticket creation tool like Service Now 
-Chatbot UI :– Used Python Streamlit UI  
+
+Chatbot UI :– Used Python Streamlit UI 
+
 Project Folder Structure : 
+```
+customer-support-chatbot/
+├── README.md
+├── app.py
+├── requirements.txt
+├── data/
+│   ├── faqs.json
+│   └── policies.json
+└── agents/
+    ├── __init__.py
+    ├── triage_agent.py
+    ├── rag_agent.py
+    └── escalation_agent.py
+```
+
+
+
+
